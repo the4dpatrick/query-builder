@@ -9,6 +9,7 @@
   "homepage": "https://the4dpatrick.github.io/query-builder",
   "dependencies": {
     "axios": "^0.15.2",
+    "lodash": "^4.17.2",
     "qs": "^6.3.0",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
@@ -18,7 +19,8 @@
     "react-select": "^1.0.0-rc.2",
     "redux": "^3.6.0",
     "redux-logger": "^2.7.4",
-    "redux-thunk": "^2.1.0"
+    "redux-thunk": "^2.1.0",
+    "uuid": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

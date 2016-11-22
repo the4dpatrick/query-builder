@@ -1,0 +1,34 @@
+.query-builder__header {
+  font-weight: normal;
+}
+
+.query-builder__button {
+  outline: none;
+  border: none;
+  font-weight: 100;
+  font-size: 1.25rem;
+  border-radius: 3px;
+  padding: 0.5rem 1.5rem;
+  color: white;
+}
+
+.query-builder__button:hover {
+  cursor: pointer;
+}
+
+.query-builder__button--add {
+  background: #2980b9;
+  margin-right: 0.5rem;
+}
+
+.query-builder__button--add:hover {
+  background: #3498db;
+}
+
+.query-builder__button--search {
+  background: #27ae60;
+}
+
+.query-builder__button--search:hover {
+  background: #2ecc71;
+}

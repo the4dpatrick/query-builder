@@ -1,0 +1,11 @@
+.in-between-predicate-value__label {
+  background: #ecf0f1;
+  color: #34495e;
+  font-size: 0.75rem;
+  border-radius: 3px;
+  padding: 0.6rem 1rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.in-between-predicate-value__input {}

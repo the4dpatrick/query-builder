@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import {
   Router,
   Route,
-  IndexRoute,
   hashHistory
 } from 'react-router'
 import { syncHistoryWithStore } from 'react-router-redux'
@@ -16,14 +15,11 @@ const history = syncHistoryWithStore(hashHistory, store)
 
 // Containers
 import App from './containers/App'
-import QueryBuilder from './containers/QueryBuilder'
 
 ReactDOM.render(
   <Provider store={store}>
     <Router history={history}>
-      <Route path="/" component={App}>
-        <IndexRoute component={QueryBuilder} />
-      </Route>
+      <Route component={App} path="/" />
     </Router>
   </Provider>,
   document.getElementById('root')

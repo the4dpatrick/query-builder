@@ -1,0 +1,15 @@
+.predicate-value {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.predicate-value .Select {
+  display: inline-block;
+  min-width: 10vw;
+  margin-right: 0.5rem;
+}
+
+.predicate-value input[type="text"] {
+  flex: 1;
+}

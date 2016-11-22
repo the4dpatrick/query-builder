@@ -1,0 +1,11 @@
+.predicate-row {
+  display: flex;
+  margin-bottom: 0.75rem;
+  align-items: center;
+}
+
+.predicate-row__select {
+  flex: 2;
+  max-width: 50vw;
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,60 @@
+{
+  "routing": {},
+  "search": ["Success"],
+  "predicates": [
+    {
+      "id": "UUID",
+      "name": "visitedPagePath",
+      "formattedName": "Visited Page Path",
+      "type": "contains",
+      "affirmative": true,
+      "value": "",
+      "placeholder": "Enter path..."
+    },
+    {
+      "id": "UUID1",
+      "name": "userFirstName",
+      "formattedName": "User First Name",
+      "type": "contains",
+      "affirmative": true,
+      "value": "",
+      "placeholder": "Enter first name..."
+    },
+    {
+      "id": "UUID2",
+      "name": "userLastName",
+      "formattedName": "User Last Name",
+      "type": "contains",
+      "affirmative": true,
+      "value": "",
+      "placeholder": "Enter last name..."
+    },
+    {
+      "id": "UUID3",
+      "name": "pageResponseTime",
+      "formattedName": "Page Response Time",
+      "type": "inBetween",
+      "affirmative": true,
+      "unit": "ms",
+      "value": [12, 100]
+    },
+    {
+      "id": "UUID4",
+      "name": "sessionLandingPath",
+      "formattedName": "Sesion Landing Path",
+      "type": "doesEqual",
+      "affirmative": true,
+      "value": "",
+      "placeholder": "/path/example"
+    },
+    {
+      "id": "UUID5",
+      "name": "screenHeight",
+      "formattedName": "Screen Height",
+      "type": "inBetween",
+      "affirmative": true,
+      "unit": "px",
+      "value": [0, 100]
+    }
+  ]
+}

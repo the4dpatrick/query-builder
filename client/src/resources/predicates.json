@@ -1,0 +1,50 @@
+[
+  {
+    "name": "visitedPagePath",
+    "formattedName": "Visited Page Path",
+    "type": "contains",
+    "affirmative": true,
+    "value": "",
+    "placeholder": "Enter path..."
+  },
+  {
+    "name": "userFirstName",
+    "formattedName": "User First Name",
+    "type": "contains",
+    "affirmative": true,
+    "value": "",
+    "placeholder": "Enter first name..."
+  },
+  {
+    "name": "userLastName",
+    "formattedName": "User Last Name",
+    "type": "contains",
+    "affirmative": true,
+    "value": "",
+    "placeholder": "Enter last name..."
+  },
+  {
+    "name": "pageResponseTime",
+    "formattedName": "Page Response Time",
+    "type": "inBetween",
+    "affirmative": true,
+    "unit": "ms",
+    "value": [12, 100]
+  },
+  {
+    "name": "sessionLandingPath",
+    "formattedName": "Sesion Landing Path",
+    "type": "doesEqual",
+    "affirmative": true,
+    "value": "",
+    "placeholder": "/path/example"
+  },
+  {
+    "name": "screenHeight",
+    "formattedName": "Screen Height",
+    "type": "inBetween",
+    "affirmative": true,
+    "unit": "px",
+    "value": [0, 100]
+  }
+]
